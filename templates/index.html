@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ML API</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Arimo"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Hind:300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" /> <!-- Link to your external CSS file -->
+  </head>
+  <body>
+    <div class="login">
+      <h1>Insurance Premium</h1>
+
+      <!-- Main Input For Receiving Query to our ML -->
+      <form action="{{ url_for('index')}}" method="post">
+        <input type="text" name="Age" placeholder="Age" required="required" />
+        <input type="text" name="Bmi" placeholder="Bmi" required="required" />
+        <div class="select-wrapper">
+          <select name="Gender" required="required">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+
+        <div class="select-wrapper">
+          <select name="region" required="required">
+            <option value="">Select Region</option>
+            <option value="North east">northeast</option>
+            <option value="North west">northwest</option>
+            <option value="South east">southeast</option>
+            <option value="South west">southwest</option>
+          </select>
+        </div>
+
+        <div class="select-wrapper">
+          <select name="smoker" required="required">
+            <option value="">Smoker</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+          </select>
+        </div>
+
+        <input
+          type="text"
+          name="Children"
+          placeholder="Children"
+          required="required"
+        />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">
+          predict
+        </button>
+      </form>
+
+      <br />
+      <br />
+      {{ prediction_text }}
+    </div>
+  </body>
+</html>
