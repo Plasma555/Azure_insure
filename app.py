@@ -3,7 +3,7 @@
 from flask import Flask, render_template, request, jsonify
 import requests,json
 
-app = Flask(__name__,template_folder=r"C:\Users\asouk\Desktop\Insurance_premium-main\templates")
+app = Flask(__name__)
 
 # Define the Azure ML real-time endpoint URL and API key
 AZURE_ML_ENDPOINT = "https://insurance-premium-xiqdj.eastus2.inference.ml.azure.com/score"
