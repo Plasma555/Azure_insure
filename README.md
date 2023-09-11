@@ -9,10 +9,7 @@ This GitHub repository contains the code and resources for an insurance premium 
 - [Model Development](#model-development)
 - [Azure Real-Time Endpoint](#azure-real-time-endpoint)
 - [Heroku Deployment](#heroku-deployment)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Introduction
 
