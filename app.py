@@ -6,8 +6,8 @@ import requests,json
 app = Flask(__name__,template_folder=r"C:\Users\asouk\Desktop\Insurance_premium-main\templates")
 
 # Define the Azure ML real-time endpoint URL and API key
-AZURE_ML_ENDPOINT = "https://insurance-premium-ctzrj.eastus2.inference.ml.azure.com/score"
-API_KEY = "UROaOKBh5E2K4hlWc6zbGq7eTohRNqRz"
+AZURE_ML_ENDPOINT = "https://insurance-premium-xiqdj.eastus2.inference.ml.azure.com/score"
+API_KEY = "zdasQ53jO8CjXjde130E3EBQXIUuGvEj"
 
 @app.route("/", methods=["GET", "POST"])
 def index():
