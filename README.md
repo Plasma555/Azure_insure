@@ -43,6 +43,6 @@ The selected model has also been deployed as a user-friendly web application on 
 
 ## Wireframe Document - https://docs.google.com/document/d/1voKuPlmwD2yhB1Zkc1QVGlW2ic4v5bbB/edit
 
-## Detailed Project Report - https://docs.google.com/document/d/1voKuPlmwD2yhB1Zkc1QVGlW2ic4v5bbB/edit
+## Detailed Project Report - https://docs.google.com/presentation/d/1R9MlzbkGYtXZYfUNvqzO_HXTLz7WyJTX/edit#slide=id.p1
 
 
