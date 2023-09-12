@@ -1,8 +1,8 @@
-# Insurance Premium Prediction Model
+  Insurance Premium Prediction Model
 
 This GitHub repository contains the code and resources for an insurance premium prediction model. The project encompasses various aspects, including data exploration, model development, deployment, and the creation of a real-time endpoint on Azure. Additionally, exploratory analysis has been conducted to gain insights into the dataset. This README will guide you through the repository and provide instructions for getting started.
 
-## Table of Contents
+ Table of Contents
 
 - [Introduction](#introduction)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
@@ -11,7 +11,7 @@ This GitHub repository contains the code and resources for an insurance premium 
 - [Heroku Deployment](#heroku-deployment)
 
 
-## Introduction
+ Introduction
 
 This project aims to predict insurance premiums for policyholders based on various features such as age, gender, location, and more. The model developed here has been deployed as a web application on Heroku using Flask, allowing users to input their information and receive insurance premium estimates. Additionally, a real-time endpoint has been created on Microsoft Azure for programmatic access to the model.
 
@@ -34,3 +34,4 @@ A real-time endpoint has been created on Microsoft Azure for the selected model.
 The selected model has also been deployed as a user-friendly web application on Heroku using Flask. This deployment provides an intuitive interface for users to input their information and obtain insurance premium estimates.
 
 ## Heroku Link- https://azure-insure-14e23255c561.herokuapp.com/
+
