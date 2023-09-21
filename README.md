@@ -33,16 +33,5 @@ A real-time endpoint has been created on Microsoft Azure for the selected model.
 
 The selected model has also been deployed as a user-friendly web application on Heroku using Flask. This deployment provides an intuitive interface for users to input their information and obtain insurance premium estimates.
 
-## Heroku Link - https://azure-insure-14e23255c561.herokuapp.com/
-
-## High Level Document - https://docs.google.com/document/d/1-OaLxSzdSl_QIazLfBpqPep6lOmYxkbB/edit
-
-## Low Level Document - https://docs.google.com/document/d/1vNoaWXl11F_tev1yPDDkUQAdN_UiCbqx/edit
-
-## Architecture - https://docs.google.com/document/d/19RQY4g7ZZKLGcN-P2UFoE5V3mXhgeSLV/edit
-
-## Wireframe Document - https://docs.google.com/document/d/1voKuPlmwD2yhB1Zkc1QVGlW2ic4v5bbB/edit
-
-## Detailed Project Report - https://docs.google.com/presentation/d/1R9MlzbkGYtXZYfUNvqzO_HXTLz7WyJTX/edit#slide=id.p1
 
 
